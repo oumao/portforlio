@@ -2,43 +2,82 @@
     margin: 0;
     padding: 0;
     outline: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
 }
-.header{
-    background: #12355B;
-    height: 200px;
-    width: 100%;
+body{
+    background: url('img/welcomebckgrd.jpg');
 }
-.header > img{
-    border-radius: 50%;
-    float: left;
-    height: 150px;
-    width: 150px;
-    margin-left: 2em;
-    margin-top: 2em;
-}
-.pageL{
-    background: rgb(101, 99, 177);
-    height: 100vh;
-    width: 30%;
-    float: left;
+.container{
+    
     text-align: center;
+    height: 100vh;
+    font-size:  18px;
     color: white;
-}
-.pageL .contacts{
-    list-style: none;
-    margin-top: 2em;
     
 }
+.desc{
+    text-align: center;
+    margin-top: 6em;
 
-.pageR{
-    background:rgb(140, 138, 201);
-    height: 100vh;
-    width: 70%;
-    float: right;
-    margin-right: ;
 }
-@media(max-width: 760px){
-    .header{
-        width: 100%;
-    }
+.name{
+    font-family:    bahnschrift light;
+    color: white;
+    font-weight: bold;
+}
+.my_pic{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+.myskills{
+    text-align: left;
+    margin-left: 20em;
+}
+.myskills > h3{
+    text-align: center;
+    margin-right: 18em;
+    color:  indigo;
+}
+.myskills > h4{
+    text-align: center;
+    margin-right: 23em;
+    color:  indigo;
+}
+.myskills > p{
+    margin-left: 10em;
+    font-size:  15px;
+}
+.social > a, img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+}
+
+.underlined{
+    width: 60%;
+    background: coral;
+    height: 1px;
+    margin-left: 12em;
+}
+
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul{
+    list-style: none;
+    width: 100%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background: white;
+    color: indigo;
+    transition: 2s;
 }
