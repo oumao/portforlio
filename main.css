@@ -30,6 +30,7 @@ body{
     height: 130px;
     border-radius: 50%;
     margin-top: 2em;
+    margin-right: 8em;
 }
 .myskills{
     text-align: left;
@@ -49,10 +50,18 @@ body{
     margin-left: 10em;
     font-size:  15px;
 }
+.social{
+    margin-right: 10em;
+    padding: 10px;
+}
+.social > h3{
+    text-align: center;
+    margin-left: 2em;
+}
 .social > a, img{
-height: 50px;
-width: 50px;
-border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 .underlined{
