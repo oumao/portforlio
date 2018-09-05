@@ -22,8 +22,9 @@ body{
 }
 .name{
     font-family:    bahnschrift light;
-    color: white;
+    color: aqua;
     font-weight: bold;
+    font-size: 20px;
 }
 .my_pic{
     width: 130px;
@@ -31,10 +32,12 @@ body{
     border-radius: 50%;
     margin-top: 2em;
     margin-right: 8em;
+    margin-left: 4em;
 }
 .myskills{
     text-align: left;
     margin-left: 20em;
+   
 }
 .myskills > h3{
     text-align: center;
@@ -48,15 +51,16 @@ body{
 }
 .myskills > p{
     margin-left: 10em;
-    font-size:  15px;
+    font-size:  18px;
 }
 .social{
     margin-right: 10em;
     padding: 10px;
+    margin-left: 3em;
 }
 .social > h3{
     text-align: center;
-    margin-left: 2em;
+    margin-left: 1em;
 }
 .social > a, img{
     height: 50px;
@@ -89,4 +93,15 @@ body{
     background: white;
     color: indigo;
     transition: 2s;
+}
+@media screen(max-width: 760px){
+.container{
+    width: 100%;
+}
+.desc{
+    width: 100%;
+}
+.myskills{
+    width: 100%;
+}
 }
